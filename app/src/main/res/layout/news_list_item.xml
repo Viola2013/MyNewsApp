@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/item_container">
+
+    <LinearLayout
+        style="@style/item_thumb_section_container">
+
+       <TextView
+            android:id="@+id/section"
+            style="@style/item_section"
+            tools:text="Section Name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/item_article_content_container">
+
+        <TextView
+            android:id="@+id/article_title"
+            style="@style/item_article_title"
+            tools:text="Article Title"/>
+
+        <TextView
+            android:id="@+id/trail_text"
+            style="@style/item_trail_text"
+            tools:text="trailText"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/item_content_container">
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/footer_text_style"
+            tools:text="date"/>
+
+        <TextView
+            android:id="@+id/author"
+            style="@style/footer_text_style"
+            tools:text="author"/>
+    </LinearLayout>
+</LinearLayout>
